@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c50037b6.chunk.css",
+    "main.js": "/static/js/main.4cb15305.chunk.js",
+    "main.js.map": "/static/js/main.4cb15305.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0d8c918c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0d8c918c.js.map",
+    "static/js/2.73c1dc08.chunk.js": "/static/js/2.73c1dc08.chunk.js",
+    "static/js/2.73c1dc08.chunk.js.map": "/static/js/2.73c1dc08.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e3ed57d5a6512e3913ea2a7af855caed.js": "/precache-manifest.e3ed57d5a6512e3913ea2a7af855caed.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c50037b6.chunk.css.map": "/static/css/main.c50037b6.chunk.css.map",
+    "static/js/2.73c1dc08.chunk.js.LICENSE.txt": "/static/js/2.73c1dc08.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/static/media/VodafoneRg-Regular.dc7364a5.woff",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.eb354e4e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d8c918c.js",
+    "static/js/2.73c1dc08.chunk.js",
+    "static/css/main.c50037b6.chunk.css",
+    "static/js/main.4cb15305.chunk.js"
+  ]
+}

@@ -3,18 +3,19 @@ export const isLeapYear = (year) => {
 };
 
 //function for creating date in format '02.12'
-export const formatDateForRequest = (currentDate, daysDif = 0) => {
-   let newDate = new Date();
+export const formatDateForRequest = (currentDate, daysDif = 0, addFebruary29 = false) => {
+   let newDate = new Date(currentDate);
    if(daysDif) {
+      if(addFebruary29) {
+         return '02.29'
+      }
       newDate.setDate(currentDate.getDate() + daysDif)
-   } else {
-      newDate = currentDate;
    }
    return  `${newDate.getMonth() + 1}`.padStart(2, 0) + '.' + `${newDate.getDate()}`.padStart(2, 0);
 };
 
 const getFormattedBirthday = (birthday) => {
-   return new Date(birthday).getMonth() + new Date(birthday).getDate()
+   return `${new Date(birthday).getMonth()}`.padStart(2, 0) + `${new Date(birthday).getDate()}`.padStart(2, 0);
 };
 
 export const sortByName = (users) => {

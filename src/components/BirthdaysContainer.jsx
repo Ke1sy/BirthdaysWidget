@@ -95,7 +95,7 @@ const BirthdaysContainer = () => {
                 dateFrom = formatDateForRequest(currentDate, 0);
                 if(isFebruary28) {
                     //if it's 28th of february and leap year and we display only 28.02. Otherwise, 28.02 and 29.02
-                    dateTo = isLeapYear(year) ? formatDateForRequest(currentDate, 0) : formatDateForRequest(currentDate, 1);
+                    dateTo = isLeapYear(year) ? formatDateForRequest(currentDate, 0) : formatDateForRequest(currentDate, 1, true);
                 } else {
                     dateTo = formatDateForRequest(currentDate, 0);
                 }
